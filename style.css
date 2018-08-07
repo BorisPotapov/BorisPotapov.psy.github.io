@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	
+}
+#starting-page{
+	background-image: url(img/1.jpg);
+	height: 650px;
+}
+#starting-page-roditel{
+	background: #CFC4C8;
+	height: 650px;
+}
+#starting-page-obschenie{
+	background-image: url(img/1.jpg);
+	height: 650px;
+}
+
+#starting-page-meneger{
+	background-image: url(img/1.jpg);
+	height: 650px;
+}
+#starting-page-komunikacii{
+	background-image: url(img/1.jpg);
+	height: 650px;
+}
+#starting-page-prodavcu{
+	background-image: url(img/1.jpg);
+	height: 650px;
+}
+#menu-button{
+	padding-top:10px;
+	margin-bottom:10px;
+	margin-left: 190px;
+	font-size: 25px;
+	height:60px;
+	width: 200px;
+	text-align: center;
+	float: left;
+	display: block;
+	text-decoration: none;
+	background-color: rgb(73, 62, 70, 0.9);
+	color: #E0CF97;
+	position: relative;
+	border-radius: 10px;
+	border-color: #FCF9D6;
+}
+#menu-button a{
+	text-decoration: none;
+	margin-bottom: 10px;
+	color: #E0CF97;
+	display: block;
+	
+	
+}
+#menu li:hover{
+	background-color: rgb(35, 24, 32, 0.7);
+}
+#menu li ul li{
+	padding-top:20px;
+	float: none;
+	position: relative;
+	margin-left: 0px;
+	display: none;
+	background-color: rgb(73, 62, 70, 0.9);
+	color: #E0CF97;
+}
+#menu li:hover ul li{
+	display: block;
+}
+#submenu{
+	float: none;
+	top: 0px;
+	height: 90px;
+	left: 200px;
+	position: absolute;
+	display: none;
+	background-color: rgb(35, 24, 32, 0.7);
+	border-radius: 10px;
+	border-color: #FCF9D6;
+}
+#submenu-button{
+	height: 70px;
+	border-radius: 10px;
+	display: block;
+}
+#b2{
+	padding-bottom: 20px;
+	border-radius: 10px;
+	border-color: #FCF9D6;
+}
+
+#b2:hover #submenu {
+	display: block;
+	background-color: rgb(35, 24, 32, 0.7);
+}
+#b3{
+	padding-bottom: 20px;
+	border-radius: 10px;
+	border-color: #FCF9D6;
+}
+#b3:hover #submenu2 {
+	display: block;
+	position: absolute;
+	background-color: rgb(35, 24, 32, 0.7);
+}
+#submenu2{
+	height: 110px;
+	width: 300px;
+	float: none;
+	left: 200px;
+	top: 0;
+	position: absolute;
+	display: none;
+	background-color: rgb(35, 24, 32, 0.7);
+	border-radius: 10px;
+	border-color: #FCF9D6;
+}
+#submenu2-button {
+	height: 90px;
+	border-radius: 10px;
+	display: block;
+}
+#psychology{
+	
+	margin-left:170px;
+	height:500px;
+	width: 960px;
+	text-align: center;
+	position: absolute;
+}
+#class1{
+	font-size: 100px;
+	padding-left:350px;
+}
+#class2{
+	font-size:50px;
+	margin-top: 10px;
+	color: black;
+	text-align:center;
+	padding-left:100px;
+}
+#button{
+	margin-left: 220px;
+	margin-right: 20px;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 15px;
+	border-color: #FCF9D6;
+	background-color: rgb(252, 192, 104, 0.9);
+}
+#text{
+	width: 960px;	
+	margin-left: 13%;
+	margin-right: 13%;
+	text-align: justify;
+	font-size: 20px;
+}
+#about{
+	text-align: center;
+	font-size:30px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+   hr {
+	width: 70px;
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+
+
+}
+#class3{
+	font-size:50px;
+	margin-top: 10px;
+	color: black;
+	text-align:center;
+	margin-left:100px;
+}
+#footer{
+	width: 100%;
+	height: 150px;
+	background: #FCC068;
+	
+}
+#h2{
+	text-align:center;
+	margin: 10px;
+	font-size: 30px;
+	
+}
+#p{
+	text-align: center;
+	font-size:16px;
+}
+#dropdoun{
+padding-left: 0px;
+	
+}
+#lili{
+	padding: 100px;
+}
+#picture-left{
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#picture-right{
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
